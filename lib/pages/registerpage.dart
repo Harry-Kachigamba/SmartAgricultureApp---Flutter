@@ -7,6 +7,9 @@ class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 255, 248, 235),
+      ),
       backgroundColor: const Color.fromARGB(255, 255, 248, 235),
       body: SafeArea(
         child: SingleChildScrollView(
