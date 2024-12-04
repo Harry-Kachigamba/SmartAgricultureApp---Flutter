@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.14.1"
   flutter_test:
     sdk: flutter
 
@@ -46,6 +47,24 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/images/landingpage.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "lib/images/landingpage.png"
+    background_color: "#6E954D"
+    theme_color: "#6E954D"
+  windows:
+    generate: true
+    image_path: "lib/images/landingpage.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "lib/images/landingpage.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
